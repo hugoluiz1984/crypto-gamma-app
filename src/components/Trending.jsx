@@ -4,7 +4,7 @@ import CoinTrending from './CoinTrending';
 
 const Trending = () => {
     const {response} = useAxios('search/trending');
-    console.log(response);
+    //console.log(response);
 
 
   return (
