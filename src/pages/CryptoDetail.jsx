@@ -8,7 +8,7 @@ const CryptoDetail = () => {
   
 
   return (
-    <div className='wrapper-container'>CryptoDetail
+    <div className='wrapper-container'>
       <HistoryChart />
       <CoinDetail />
     </div>
