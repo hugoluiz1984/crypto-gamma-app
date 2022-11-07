@@ -5,14 +5,15 @@ import CryptoDetail from './pages/CryptoDetail'
 import CryptoHome from './pages/CryptoHome'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='' element={<CryptoHome />} exact/>
-        <Route path='/coin/:id' element={<CryptoDetail />} />
+        <Route path='/' element={<CryptoHome />} exact/>
+        <Route path="/coin/:Id" element={<CryptoDetail />} />
+
       </Routes>
     </BrowserRouter>
   )
